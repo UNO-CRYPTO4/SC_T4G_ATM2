@@ -1,0 +1,17 @@
+{
+    "github.copilot.inlineSuggest.enable": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "javascript": false,
+        "html": false,
+        "css": false
+    },
+    "github.copilot.chat.enable": false,
+    "github.copilot.editor.enable": false,
+
+    "files.exclude": {
+        "**/.vscode": true
+    }
+}
+

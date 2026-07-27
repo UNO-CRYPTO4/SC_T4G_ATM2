@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T4G Classroom ATM</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+    <div class="atm-container">
+        <div class="atm-header">
+            <h2>[GroupName] BANK ATM</h2>
+            <div class="status-light"></div>
+        </div>
+
+        <!-- The digital monitor screen where text updates -->
+        <div class="atm-screen">
+            <h3 id="screen-title">WELCOME TO [GroupName] ATM SYSTEM</h3>
+            <p id="screen-text">Please enter your 4-digit PIN below to access your funds.</p>
+        </div>
+
+        <!-- Interactive keypad inputs -->
+        <div class="atm-inputs">
+            <input type="password" id="atm-input" placeholder="Type here..." max-length="6">
+            <button id="atm-btn">SUBMIT</button>
+        </div>
+    </div>
+
+    <script src="src/atm.js"></script>
+</body>
+</html>
